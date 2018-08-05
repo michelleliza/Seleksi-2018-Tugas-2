@@ -1,0 +1,334 @@
+[
+    {
+        "Region": "Ciumbuleuit",
+        "Amount": 43
+    },
+    {
+        "Region": "Pasir Kaliki",
+        "Amount": 145
+    },
+    {
+        "Region": "Riau",
+        "Amount": 121
+    },
+    {
+        "Region": "Sukajadi",
+        "Amount": 56
+    },
+    {
+        "Region": "Gedung Sate",
+        "Amount": 3
+    },
+    {
+        "Region": "Setiabudhi",
+        "Amount": 41
+    },
+    {
+        "Region": "Dago Bawah",
+        "Amount": 89
+    },
+    {
+        "Region": "Braga",
+        "Amount": 24
+    },
+    {
+        "Region": "Dago Atas",
+        "Amount": 74
+    },
+    {
+        "Region": "Sumatera",
+        "Amount": 8
+    },
+    {
+        "Region": "Karapitan",
+        "Amount": 7
+    },
+    {
+        "Region": "Banda",
+        "Amount": 5
+    },
+    {
+        "Region": "Gegerkalong",
+        "Amount": 18
+    },
+    {
+        "Region": "Dipatiukur",
+        "Amount": 66
+    },
+    {
+        "Region": "Cigadung",
+        "Amount": 6
+    },
+    {
+        "Region": "Progo",
+        "Amount": 10
+    },
+    {
+        "Region": "Merdeka",
+        "Amount": 48
+    },
+    {
+        "Region": "Astana Anyar",
+        "Amount": 9
+    },
+    {
+        "Region": "Gatot Subroto",
+        "Amount": 40
+    },
+    {
+        "Region": "Cihampelas",
+        "Amount": 57
+    },
+    {
+        "Region": "Trunojoyo",
+        "Amount": 31
+    },
+    {
+        "Region": "Lembang",
+        "Amount": 31
+    },
+    {
+        "Region": "Sarijadi",
+        "Amount": 28
+    },
+    {
+        "Region": "Surapati",
+        "Amount": 26
+    },
+    {
+        "Region": "Buah Batu",
+        "Amount": 63
+    },
+    {
+        "Region": "Citarum",
+        "Amount": 6
+    },
+    {
+        "Region": "Wastukancana",
+        "Amount": 4
+    },
+    {
+        "Region": "Ahmad Yani",
+        "Amount": 12
+    },
+    {
+        "Region": "Pasir Koja",
+        "Amount": 22
+    },
+    {
+        "Region": "Andir",
+        "Amount": 8
+    },
+    {
+        "Region": "Sunda",
+        "Amount": 10
+    },
+    {
+        "Region": "Burangrang",
+        "Amount": 31
+    },
+    {
+        "Region": "Cicendo",
+        "Amount": 7
+    },
+    {
+        "Region": "Lengkong",
+        "Amount": 16
+    },
+    {
+        "Region": "Cilaki",
+        "Amount": 7
+    },
+    {
+        "Region": "Pajajaran",
+        "Amount": 24
+    },
+    {
+        "Region": "Laswi",
+        "Amount": 2
+    },
+    {
+        "Region": "Aceh",
+        "Amount": 6
+    },
+    {
+        "Region": "Padasuka",
+        "Amount": 1
+    },
+    {
+        "Region": "Naripan",
+        "Amount": 9
+    },
+    {
+        "Region": "Sudirman",
+        "Amount": 28
+    },
+    {
+        "Region": "Cibadak",
+        "Amount": 30
+    },
+    {
+        "Region": "Cisangkuy",
+        "Amount": 10
+    },
+    {
+        "Region": "Banceuy",
+        "Amount": 6
+    },
+    {
+        "Region": "Supratman",
+        "Amount": 10
+    },
+    {
+        "Region": "Cimahi",
+        "Amount": 4
+    },
+    {
+        "Region": "Soekarno Hatta",
+        "Amount": 18
+    },
+    {
+        "Region": "Jatinangor",
+        "Amount": 1
+    },
+    {
+        "Region": "Veteran",
+        "Amount": 10
+    },
+    {
+        "Region": "Cipaganti",
+        "Amount": 10
+    },
+    {
+        "Region": "Kopo",
+        "Amount": 31
+    },
+    {
+        "Region": "Batununggal",
+        "Amount": 4
+    },
+    {
+        "Region": "Asia Afrika",
+        "Amount": 6
+    },
+    {
+        "Region": "Pasteur",
+        "Amount": 9
+    },
+    {
+        "Region": "Pelajar Pejuang",
+        "Amount": 5
+    },
+    {
+        "Region": "Marta Negara",
+        "Amount": 2
+    },
+    {
+        "Region": "Antapani",
+        "Amount": 35
+    },
+    {
+        "Region": "Holis",
+        "Amount": 6
+    },
+    {
+        "Region": "Gunung Batu",
+        "Amount": 2
+    },
+    {
+        "Region": "Gede Bage",
+        "Amount": 2
+    },
+    {
+        "Region": "Ciparay",
+        "Amount": 1
+    },
+    {
+        "Region": "Moch Ramdhan",
+        "Amount": 5
+    },
+    {
+        "Region": "Mekar Wangi",
+        "Amount": 4
+    },
+    {
+        "Region": "Palasari",
+        "Amount": 6
+    },
+    {
+        "Region": "Balonggede",
+        "Amount": 4
+    },
+    {
+        "Region": "Margahayu",
+        "Amount": 2
+    },
+    {
+        "Region": "Kiaracondong",
+        "Amount": 3
+    },
+    {
+        "Region": "Cibaduyut",
+        "Amount": 2
+    },
+    {
+        "Region": "Setrasari",
+        "Amount": 3
+    },
+    {
+        "Region": "Arcamanik",
+        "Amount": 2
+    },
+    {
+        "Region": "Otto Iskandardinata",
+        "Amount": 2
+    },
+    {
+        "Region": "Cijerah",
+        "Amount": 3
+    },
+    {
+        "Region": "Moch Toha",
+        "Amount": 4
+    },
+    {
+        "Region": "Ciwastra",
+        "Amount": 1
+    },
+    {
+        "Region": "Cibiru",
+        "Amount": 2
+    },
+    {
+        "Region": "Peta",
+        "Amount": 2
+    },
+    {
+        "Region": "Dewi Sartika",
+        "Amount": 4
+    },
+    {
+        "Region": "Belitung",
+        "Amount": 1
+    },
+    {
+        "Region": "Cibeureum",
+        "Amount": 2
+    },
+    {
+        "Region": "Jawa",
+        "Amount": 1
+    },
+    {
+        "Region": "Ciateul",
+        "Amount": 1
+    },
+    {
+        "Region": "Gardujati",
+        "Amount": 1
+    },
+    {
+        "Region": "Sumber Sari",
+        "Amount": 1
+    }
+]

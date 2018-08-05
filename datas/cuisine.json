@@ -1,0 +1,106 @@
+[
+    {
+        "Cuisine": "Barat",
+        "Amount": 138
+    },
+    {
+        "Cuisine": "Kafe",
+        "Amount": 366
+    },
+    {
+        "Cuisine": "Jepang",
+        "Amount": 89
+    },
+    {
+        "Cuisine": "Indonesia",
+        "Amount": 540
+    },
+    {
+        "Cuisine": "Italia",
+        "Amount": 21
+    },
+    {
+        "Cuisine": "Korea",
+        "Amount": 36
+    },
+    {
+        "Cuisine": "Donat",
+        "Amount": 7
+    },
+    {
+        "Cuisine": "China",
+        "Amount": 81
+    },
+    {
+        "Cuisine": "Es Krim",
+        "Amount": 22
+    },
+    {
+        "Cuisine": "Arab/Timur Tengah",
+        "Amount": 10
+    },
+    {
+        "Cuisine": "Dessert",
+        "Amount": 28
+    },
+    {
+        "Cuisine": "Bakpao",
+        "Amount": 1
+    },
+    {
+        "Cuisine": "Toko Kue",
+        "Amount": 30
+    },
+    {
+        "Cuisine": "Minuman",
+        "Amount": 53
+    },
+    {
+        "Cuisine": "Toko Roti dan Kue",
+        "Amount": 22
+    },
+    {
+        "Cuisine": "Thailand",
+        "Amount": 9
+    },
+    {
+        "Cuisine": "Bubble Tea",
+        "Amount": 9
+    },
+    {
+        "Cuisine": "Snack",
+        "Amount": 12
+    },
+    {
+        "Cuisine": "India",
+        "Amount": 1
+    },
+    {
+        "Cuisine": "Vegetarian",
+        "Amount": 1
+    },
+    {
+        "Cuisine": "Vietnam",
+        "Amount": 1
+    },
+    {
+        "Cuisine": "Yoghurt",
+        "Amount": 1
+    },
+    {
+        "Cuisine": "Crepes",
+        "Amount": 4
+    },
+    {
+        "Cuisine": "Perancis",
+        "Amount": 1
+    },
+    {
+        "Cuisine": "Popcorn",
+        "Amount": 1
+    },
+    {
+        "Cuisine": " China",
+        "Amount": 1
+    }
+]

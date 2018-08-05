@@ -1,0 +1,26 @@
+[
+    {
+        "Region": "Pasir Kaliki",
+        "AvgRating": 3.951999999999999
+    },
+    {
+        "Region": "Riau",
+        "AvgRating": 3.9513223140495857
+    },
+    {
+        "Region": "Dago Bawah",
+        "AvgRating": 3.9537078651685404
+    },
+    {
+        "Region": "Dago Atas",
+        "AvgRating": 3.9998648648648634
+    },
+    {
+        "Region": "Dipatiukur",
+        "AvgRating": 3.806969696969696
+    },
+    {
+        "Region": "Others",
+        "AvgRating": 3.998199004975118
+    }
+]

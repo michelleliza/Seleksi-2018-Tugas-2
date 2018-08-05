@@ -1,0 +1,18 @@
+[
+    {
+        "PriceRange": "Rp. 50.000 - Rp. 100.000",
+        "Amount": 390
+    },
+    {
+        "PriceRange": "Rp. 100.000 - Rp. 200.000",
+        "Amount": 55
+    },
+    {
+        "PriceRange": "Di bawah Rp. 50.000",
+        "Amount": 1050
+    },
+    {
+        "PriceRange": "Di atas Rp. 200.000",
+        "Amount": 5
+    }
+]
