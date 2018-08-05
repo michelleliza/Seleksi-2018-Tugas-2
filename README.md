@@ -12,33 +12,28 @@
   <br>
 </h2>
 
+### Description
+
+This is a dashboard that displays data about restaurants in Bandung City. The data is taken from [pergikuliner.com](http://pergikuliner.com).
 
 ### Specifications
 
-1. Tugas dikerjakan secara berkelompok dengan pembagian anggota yang dapat diakses pada link berikut: [Pembagian Kelompok Tugas 2](https://docs.google.com/spreadsheets/d/1rmLotmW_yk60mK78awBMLF9fTukAXSWLmQl1fVkHYn8/edit?usp=sharing).
+This dashboard displays several charts that represents the statistics of restaurants in Bandung City and the ratings that the restaurants got from customers, that could give insights to potential customers and restaurant owners. The chart is visualized from data taken from [pergikuliner.com](http://pergikuliner.com) that has been cleaned and preprocessed.
 
-2. Setiap kelompok diminta untuk membuat sebuah dashboard interaktif yang memvisualisasikan data hasil scraping pada tugas 1. Data atau topik yang digunakan boleh memilih salah satu dari topik-topik anggota kelompok __ATAU__ mengkombinasikannya.
+### How to Open
 
-3. Tools dan bahasa yang digunakan dalam membuat dashboard tidak dibatasi.
+Make sure to download the folder __fusioncharts-suite-xt__ and place it in the same folder as the __main.html__ file. Then run the html file on your web browser.
 
-4. Dalam pengerjaan tugas, setiap kelompok melakukan fork project github berikut: https://github.com/wargabasdat/Seleksi-2018-Tugas-2. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan pull request dengan nama ```TUGAS_SELEKSI_2_[nim anggota 1]_[nim anggota 2]_[nim anggota 3]```
+### Screenshots
 
-5. Pada repository tersebut, setiap kelompok juga diminta membuat sebuah artikel yang berisi hasil analisis dari data yang dipilih. Dari dashboard lakukan analisis data secara visual. Hasil analisis ini kemudian dilengkapi dengan analisis statistik yang sifatnya wajib dan machine learning (tidak wajib). Dari proses analisis kemudian ditarik kesimpulan.
+### References
 
-6. Artikel ini dibuat dalam format .md menggunakan Markdown Language yang dibuat sekreatif mungkin dengan penamaan file ```ARTIKEL_[nim anggota 1]_[nim anggota 2]_[nim anggota 3].md```
-
-7. Deadline pengumpulan tugas adalah __4 Agustus 2018 Pukul 23.59__
-
-<h1 align="center">
-  <br>
-  Selamat BerEksplorasi!
-  <br>
-  <br>
-</h1>
+Tools used: FusionCharts
 
 <p align="center">
   <br>
-  Basdat Industries - Lab Basdat 2018
+  Michelle Eliza - 13516015
   <br>
+  Shevalda Gracielira - 13516134
   <br>
 </p>
