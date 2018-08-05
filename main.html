@@ -1,0 +1,640 @@
+<html>
+<head>
+  <title>KulinerBandung</title>
+  <script type="text/javascript" src="fusioncharts-suite-xt/js/fusioncharts.js"></script>
+  <script type="text/javascript" src="fusioncharts-suite-xt/js/themes/fusioncharts.theme.candy.js"></script>
+  <script type="text/javascript" src="fusioncharts-suite-xt/js/themes/fusioncharts.theme.ocean.js"></script>
+  <script type="text/javascript" src="fusioncharts-suite-xt/js/themes/fusioncharts.theme.fusion.js"></script>
+
+  <!--Script to load the restaurant per region chart-->
+  <script type="text/javascript">
+    FusionCharts.ready(function() {
+        var cuisineChart = new FusionCharts({
+            "type": "pie2d",
+            "renderAt": "cuisine-chart-container",
+            "width": "1000",
+            "height": "500",
+            "dataFormat": "json",
+            "dataSource": {
+                // Chart Configuration
+                "chart": {
+                    "caption": "Berdasarkan Jenis Makanan (Cuisine)",
+                    "enableMultiSlicing": "0",
+                    "theme": "fusion"
+                },
+                // Chart Data
+                "data": [
+                    {
+                        "label": "Barat",
+                        "value": 138
+                    },
+                    {
+                        "label": "Kafe",
+                        "value": 366
+                    },
+                    {
+                        "label": "Jepang",
+                        "value": 89
+                    },
+                    {
+                        "label": "Indonesia",
+                        "value": 540
+                    },
+                    {
+                        "label": "Italia",
+                        "value": 21
+                    },
+                    {
+                        "label": "Korea",
+                        "value": 36
+                    },
+                    {
+                        "label": "Donat",
+                        "value": 7
+                    },
+                    {
+                        "label": "China",
+                        "value": 81
+                    },
+                    {
+                        "label": "Es Krim",
+                        "value": 22
+                    },
+                    {
+                        "label": "Arab/Timur Tengah",
+                        "value": 10
+                    },
+                    {
+                        "label": "Dessert",
+                        "value": 28
+                    },
+                    {
+                        "label": "Bakpao",
+                        "value": 1
+                    },
+                    {
+                        "label": "Toko Kue",
+                        "value": 30
+                    },
+                    {
+                        "label": "Minuman",
+                        "value": 53
+                    },
+                    {
+                        "label": "Toko Roti dan Kue",
+                        "value": 22
+                    },
+                    {
+                        "label": "Thailand",
+                        "value": 9
+                    },
+                    {
+                        "label": "Bubble Tea",
+                        "value": 9
+                    },
+                    {
+                        "label": "Snack",
+                        "value": 12
+                    },
+                    {
+                        "label": "India",
+                        "value": 1
+                    },
+                    {
+                        "label": "Vegetarian",
+                        "value": 1
+                    },
+                    {
+                        "label": "Vietnam",
+                        "value": 1
+                    },
+                    {
+                        "label": "Yoghurt",
+                        "value": 1
+                    },
+                    {
+                        "label": "Crepes",
+                        "value": 4
+                    },
+                    {
+                        "label": "Perancis",
+                        "value": 1
+                    },
+                    {
+                        "label": "Popcorn",
+                        "value": 1
+                    },
+                    {
+                        "label": " China",
+                        "value": 1
+                    }
+                ]
+            }
+        });
+        cuisineChart.render();
+    })
+  </script>
+   
+  <!--Script to load the restaurant per price range chart-->
+  <script type="text/javascript">
+    FusionCharts.ready(function() {
+        var priceChart = new FusionCharts({
+            "type": "doughnut2d",
+            "renderAt": "price-chart-container",
+            "width": "1000",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                // Chart Configuration
+                "chart": {
+                    "caption": "Berdasarkan Range Harga",
+                    "enableMultiSlicing": "0",
+                    "theme": "fusion",
+                },
+                // Chart data
+                "data": [
+                    {
+                        "label": "Rp. 50.000 - Rp. 100.000",
+                        "value": 390
+                    },
+                    {
+                        "label": "Rp. 100.000 - Rp. 200.000",
+                        "value": 55
+                    },
+                    {
+                        "label": "Di bawah Rp. 50.000",
+                        "value": 1050
+                    },
+                    {
+                        "label": "Di atas Rp. 200.000",
+                        "value": 5
+                    }
+                ]
+            }
+        });
+        priceChart.render();
+    })
+  </script>
+
+  <!--Script to load the restaurant per region chart-->
+  <script type="text/javascript">
+    FusionCharts.ready(function() {
+        var regionChart = new FusionCharts({
+            "type": "pie2d",
+            "renderAt": "region-chart-container",
+            "width": "1000",
+            "height": "700",
+            "dataFormat": "json",
+            "dataSource": {
+                // Chart Configuration
+                "chart": {
+                    "caption": "Berdasarkan Daerah",
+                    "enableMultiSlicing": "0",
+                    "theme": "fusion",
+                },
+                // Chart data
+                "data": [
+                    {
+                        "label": "Ciumbuleuit",
+                        "value": 43
+                    },
+                    {
+                        "label": "Pasir Kaliki",
+                        "value": 145
+                    },
+                    {
+                        "label": "Riau",
+                        "value": 121
+                    },
+                    {
+                        "label": "Sukajadi",
+                        "value": 56
+                    },
+                    {
+                        "label": "Gedung Sate",
+                        "value": 3
+                    },
+                    {
+                        "label": "Setiabudhi",
+                        "value": 41
+                    },
+                    {
+                        "label": "Dago Bawah",
+                        "value": 89
+                    },
+                    {
+                        "label": "Braga",
+                        "value": 24
+                    },
+                    {
+                        "label": "Dago Atas",
+                        "value": 74
+                    },
+                    {
+                        "label": "Sumatera",
+                        "value": 8
+                    },
+                    {
+                        "label": "Karapitan",
+                        "value": 7
+                    },
+                    {
+                        "label": "Banda",
+                        "value": 5
+                    },
+                    {
+                        "label": "Gegerkalong",
+                        "value": 18
+                    },
+                    {
+                        "label": "Dipatiukur",
+                        "value": 66
+                    },
+                    {
+                        "label": "Cigadung",
+                        "value": 6
+                    },
+                    {
+                        "label": "Progo",
+                        "value": 10
+                    },
+                    {
+                        "label": "Merdeka",
+                        "value": 48
+                    },
+                    {
+                        "label": "Astana Anyar",
+                        "value": 9
+                    },
+                    {
+                        "label": "Gatot Subroto",
+                        "value": 40
+                    },
+                    {
+                        "label": "Cihampelas",
+                        "value": 57
+                    },
+                    {
+                        "label": "Trunojoyo",
+                        "value": 31
+                    },
+                    {
+                        "label": "Lembang",
+                        "value": 31
+                    },
+                    {
+                        "label": "Sarijadi",
+                        "value": 28
+                    },
+                    {
+                        "label": "Surapati",
+                        "value": 26
+                    },
+                    {
+                        "label": "Buah Batu",
+                        "value": 63
+                    },
+                    {
+                        "label": "Citarum",
+                        "value": 6
+                    },
+                    {
+                        "label": "Wastukancana",
+                        "value": 4
+                    },
+                    {
+                        "label": "Ahmad Yani",
+                        "value": 12
+                    },
+                    {
+                        "label": "Pasir Koja",
+                        "value": 22
+                    },
+                    {
+                        "label": "Andir",
+                        "value": 8
+                    },
+                    {
+                        "label": "Sunda",
+                        "value": 10
+                    },
+                    {
+                        "label": "Burangrang",
+                        "value": 31
+                    },
+                    {
+                        "label": "Cicendo",
+                        "value": 7
+                    },
+                    {
+                        "label": "Lengkong",
+                        "value": 16
+                    },
+                    {
+                        "label": "Cilaki",
+                        "value": 7
+                    },
+                    {
+                        "label": "Pajajaran",
+                        "value": 24
+                    },
+                    {
+                        "label": "Laswi",
+                        "value": 2
+                    },
+                    {
+                        "label": "Aceh",
+                        "value": 6
+                    },
+                    {
+                        "label": "Padasuka",
+                        "value": 1
+                    },
+                    {
+                        "label": "Naripan",
+                        "value": 9
+                    },
+                    {
+                        "label": "Sudirman",
+                        "value": 28
+                    },
+                    {
+                        "label": "Cibadak",
+                        "value": 30
+                    },
+                    {
+                        "label": "Cisangkuy",
+                        "value": 10
+                    },
+                    {
+                        "label": "Banceuy",
+                        "value": 6
+                    },
+                    {
+                        "label": "Supratman",
+                        "value": 10
+                    },
+                    {
+                        "label": "Cimahi",
+                        "value": 4
+                    },
+                    {
+                        "label": "Soekarno Hatta",
+                        "value": 18
+                    },
+                    {
+                        "label": "Jatinangor",
+                        "value": 1
+                    },
+                    {
+                        "label": "Veteran",
+                        "value": 10
+                    },
+                    {
+                        "label": "Cipaganti",
+                        "value": 10
+                    },
+                    {
+                        "label": "Kopo",
+                        "value": 31
+                    },
+                    {
+                        "label": "Batununggal",
+                        "value": 4
+                    },
+                    {
+                        "label": "Asia Afrika",
+                        "value": 6
+                    },
+                    {
+                        "label": "Pasteur",
+                        "value": 9
+                    },
+                    {
+                        "label": "Pelajar Pejuang",
+                        "value": 5
+                    },
+                    {
+                        "label": "Marta Negara",
+                        "value": 2
+                    },
+                    {
+                        "label": "Antapani",
+                        "value": 35
+                    },
+                    {
+                        "label": "Holis",
+                        "value": 6
+                    },
+                    {
+                        "label": "Gunung Batu",
+                        "value": 2
+                    },
+                    {
+                        "label": "Gede Bage",
+                        "value": 2
+                    },
+                    {
+                        "label": "Ciparay",
+                        "value": 1
+                    },
+                    {
+                        "label": "Moch Ramdhan",
+                        "value": 5
+                    },
+                    {
+                        "label": "Mekar Wangi",
+                        "value": 4
+                    },
+                    {
+                        "label": "Palasari",
+                        "value": 6
+                    },
+                    {
+                        "label": "Balonggede",
+                        "value": 4
+                    },
+                    {
+                        "label": "Margahayu",
+                        "value": 2
+                    },
+                    {
+                        "label": "Kiaracondong",
+                        "value": 3
+                    },
+                    {
+                        "label": "Cibaduyut",
+                        "value": 2
+                    },
+                    {
+                        "label": "Setrasari",
+                        "value": 3
+                    },
+                    {
+                        "label": "Arcamanik",
+                        "value": 2
+                    },
+                    {
+                        "label": "Otto Iskandardinata",
+                        "value": 2
+                    },
+                    {
+                        "label": "Cijerah",
+                        "value": 3
+                    },
+                    {
+                        "label": "Moch Toha",
+                        "value": 4
+                    },
+                    {
+                        "label": "Ciwastra",
+                        "value": 1
+                    },
+                    {
+                        "label": "Cibiru",
+                        "value": 2
+                    },
+                    {
+                        "label": "Peta",
+                        "value": 2
+                    },
+                    {
+                        "label": "Dewi Sartika",
+                        "value": 4
+                    },
+                    {
+                        "label": "Belitung",
+                        "value": 1
+                    },
+                    {
+                        "label": "Cibeureum",
+                        "value": 2
+                    },
+                    {
+                        "label": "Jawa",
+                        "value": 1
+                    },
+                    {
+                        "label": "Ciateul",
+                        "value": 1
+                    },
+                    {
+                        "label": "Gardujati",
+                        "value": 1
+                    },
+                    {
+                        "label": "Sumber Sari",
+                        "value": 1
+                    }
+                ]
+            }
+        });
+        regionChart.render();
+    })
+  </script>
+
+  <!--Script to load the average rating per region chart-->
+  <script type="text/javascript">
+    FusionCharts.ready(function() {
+        var ratingChart = new FusionCharts({
+            "type": "bar2d",
+            "renderAt": "avg-rating-chart-container",
+            "width": "700",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                // Chart Configuration
+                "chart": {
+                    "caption": "Rata-rata Rating Restoran per Daerah",
+                    "theme": "fusion"
+                },
+                // Chart data
+                "data": [
+                    {
+                        "label": "Pasir Kaliki",
+                        "value": 3.951999999999999
+                    },
+                    {
+                        "label": "Riau",
+                        "value": 3.9513223140495857
+                    },
+                    {
+                        "label": "Dago Bawah",
+                        "value": 3.9537078651685404
+                    },
+                    {
+                        "label": "Dago Atas",
+                        "value": 3.9998648648648634
+                    },
+                    {
+                        "label": "Dipatiukur",
+                        "value": 3.806969696969696
+                    },
+                    {
+                        "label": "Others",
+                        "value": 3.998199004975118
+                    }
+                ]
+            }
+        });
+        ratingChart.render();
+    })
+  </script>
+  
+  <!--Script to load the average flavor rating per region chart-->
+  <script type="text/javascript">
+    FusionCharts.ready(function() {
+        var flavorRatingChart = new FusionCharts({
+            "type": "bar2d",
+            "renderAt": "avg-flavor-rating-chart-container",
+            "width": "700",
+            "height": "400",
+            "dataFormat": "json",
+            "dataSource": {
+                // Chart Configuration
+                "chart": {
+                    "caption": "Rata-Rata Rating Rasa Makanan per Daerah",
+                    "theme": "fusion",
+                },
+                // Chart data
+                "data": [
+                    {
+                        "label": "Pasir Kaliki",
+                        "value": 4.256551724137931
+                    },
+                    {
+                        "label": "Riau",
+                        "value": 4.108264462809918
+                    },
+                    {
+                        "label": "Dago Bawah",
+                        "value": 4.0887640449438205
+                    },
+                    {
+                        "label": "Dago Atas",
+                        "value": 4.347297297297296
+                    },
+                    {
+                        "label": "Dipatiukur",
+                        "value": 3.9151515151515146
+                    },
+                    {
+                        "label": "Others",
+                        "value": 4.213731343283583
+                    }
+                ]
+            }
+        });
+        flavorRatingChart.render();
+    })
+  </script>
+</head>
+
+<body>
+    <center><div id="cuisine-chart-container">Cuisine Chart will load here!</div></center>
+    <center><div id="price-chart-container">Price Chart will load here!</div></center>
+    <center><div id="region-chart-container">Region Chart will load here!</div></center>
+    <center><div id="avg-rating-chart-container">Avg Rating Chart will load here!</div></center>
+    <center><div id="avg-flavor-rating-chart-container">Avg Flavor Rating Chart will load here!</div></center>
+</body>
+</html>
