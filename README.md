@@ -26,6 +26,14 @@ Make sure to download the folder __fusioncharts-suite-xt__ and place it in the s
 
 ### Screenshots
 
+<center>![ss1](https://github.com/michelleliza/Seleksi-2018-Tugas-2/blob/master/screenshots/ss1.PNG)</center>
+<br>
+<center>![ss2](https://github.com/michelleliza/Seleksi-2018-Tugas-2/blob/master/screenshots/ss2.PNG)</center>
+<br>
+<center>![ss3](https://github.com/michelleliza/Seleksi-2018-Tugas-2/blob/master/screenshots/ss3.PNG)
+</center>
+
+
 ### References
 
 Tools used: FusionCharts
